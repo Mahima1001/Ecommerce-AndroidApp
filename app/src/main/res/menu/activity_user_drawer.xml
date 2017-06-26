@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Clothes">
+        <menu>
+            <item
+                android:id="@+id/nav_menwear"
+                android:title="Men's Wear" />
+            <item
+                android:id="@+id/nav_womenwear"
+                android:title="Women's Wear" />
+            <item
+                android:id="@+id/nav_kidwear"
+                android:title="Kid's Wear" />
+        </menu>
+    </item>
+
+    <item android:title="Electronic Devices">
+        <menu>
+            <item
+                android:id="@+id/nav_mobile"
+                android:title="Mobiles" />
+            <item
+                android:id="@+id/nav_laptop"
+                android:title="Laptops" />
+
+        </menu>
+    </item>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_cart"
+                android:title="See Cart" />
+            <item
+                android:id="@+id/nav_contact"
+                android:title="Contact" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:title="About" />
+
+        </menu>
+    </item>
+
+</menu>
